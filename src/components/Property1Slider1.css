@@ -1,0 +1,85 @@
+.dbs-2404-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 500px;
+  object-fit: cover;
+}
+.welcome-to1 {
+  font-weight: 600;
+}
+.welcome-to {
+  margin: 0;
+}
+.dream-big-studio {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-arkhip);
+}
+.welcome-to-dream-big-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.unlocking-the-magic {
+  position: absolute;
+  top: 172px;
+  left: calc(50% - 370.5px);
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-arkhip);
+}
+.welcome-to-dream-big-studio-parent {
+  position: absolute;
+  top: 60px;
+  left: 24px;
+  width: 1105px;
+  height: 208px;
+}
+.div,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 500px;
+}
+.div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+  left: 1570px;
+}
+.div2,
+.div3,
+.div4,
+.div5 {
+  left: 3060px;
+}
+.div3,
+.div4,
+.div5 {
+  left: 4550px;
+}
+.div4,
+.div5 {
+  left: 6040px;
+}
+.div5 {
+  left: 7530px;
+}
+.property-1slider-1 {
+  position: relative;
+  width: 1440px;
+  height: 500px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color1);
+  font-family: var(--font-montserrat);
+}

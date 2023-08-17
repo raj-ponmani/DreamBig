@@ -1,0 +1,45 @@
+.group-child24 {
+  position: absolute;
+  top: -16px;
+  left: -24px;
+  border-radius: var(--br-xl);
+  width: 406px;
+  height: 548px;
+  object-fit: cover;
+}
+.post-wedding-photography {
+  position: absolute;
+  top: 510px;
+  left: 51px;
+  line-height: 190.9%;
+}
+.rectangle-parent10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 358px;
+  height: 541px;
+}
+.maternity-shoot {
+  position: absolute;
+  top: 510px;
+  left: 102px;
+  line-height: 190.9%;
+}
+.group-parent6,
+.rectangle-parent11 {
+  position: absolute;
+  top: 0;
+  left: 441px;
+  width: 358px;
+  height: 541px;
+}
+.group-parent6 {
+  top: 1202px;
+  left: 0;
+  width: 1240px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color2);
+  font-family: var(--font-arkhip);
+}

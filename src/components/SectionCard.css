@@ -1,0 +1,81 @@
+.our-process {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 74px);
+  font-weight: 600;
+}
+.at-dream-big3 {
+  position: absolute;
+  top: 73px;
+  left: 0;
+  font-size: var(--font-size-xl);
+  line-height: 133.9%;
+  font-family: var(--font-montserrat);
+  text-align: center;
+  display: inline-block;
+  width: 1312px;
+}
+.our-process-parent {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 656px);
+  width: 1312px;
+  height: 154px;
+}
+.initial-consultation {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.customized-planning,
+.the-shoot {
+  position: absolute;
+  top: 0;
+  left: 323px;
+}
+.the-shoot {
+  left: 650px;
+}
+.final-delivery,
+.post-production {
+  position: absolute;
+  top: 0;
+  left: 856px;
+}
+.final-delivery {
+  left: 1145px;
+}
+.initial-consultation-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1312px;
+  height: 24px;
+}
+.group-icon,
+.group-parent8 {
+  position: absolute;
+  top: 44px;
+  left: 92px;
+  width: 1162px;
+  height: 50px;
+}
+.group-parent8 {
+  top: 214px;
+  left: 0;
+  width: 1312px;
+  height: 94px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-arkhip);
+}
+.group-parent7 {
+  position: absolute;
+  top: 4616px;
+  left: calc(50% - 656px);
+  width: 1312px;
+  height: 308px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color2);
+  font-family: var(--font-piazzolla);
+}

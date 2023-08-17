@@ -1,0 +1,181 @@
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25), -4px 8px 24px rgba(0, 0, 0, 0.25);
+  width: 644px;
+  height: 626px;
+}
+.submit {
+  position: relative;
+}
+.submit-wrapper {
+  position: absolute;
+  top: 522px;
+  left: 248px;
+  border-radius: var(--br-3xs);
+  background-color: var(--border-color);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.contact-us {
+  position: absolute;
+  top: 0;
+  left: 201px;
+  font-size: var(--font-size-11xl);
+}
+.group-child,
+.name {
+  position: absolute;
+  left: 0;
+}
+.name {
+  top: 0;
+  font-weight: 500;
+}
+.group-child {
+  top: 34px;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--border-color);
+  box-sizing: border-box;
+  width: 286px;
+  height: 50px;
+}
+.email-id-parent,
+.name-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 286px;
+  height: 84px;
+}
+.email-id-parent {
+  top: 114px;
+}
+.contact-number-parent,
+.event-location-parent,
+.more-details-parent {
+  position: absolute;
+  top: 342px;
+  left: 0;
+  width: 286px;
+  height: 84px;
+}
+.contact-number-parent,
+.more-details-parent {
+  left: 310px;
+}
+.contact-number-parent {
+  top: 0;
+}
+.event-type {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+}
+.group-child2,
+.wedding-photography {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+.group-child2 {
+  top: 2px;
+  left: 0;
+  border: 1px solid var(--color2);
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.wedding-photography-parent {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 210px;
+  height: 24px;
+}
+.birthday-photography-parent,
+.engagement-photography-parent {
+  position: absolute;
+  top: 66px;
+  left: 0;
+  width: 241px;
+  height: 24px;
+}
+.birthday-photography-parent {
+  top: 100px;
+  width: 205px;
+}
+.maternity-photography-parent,
+.others-parent {
+  position: absolute;
+  top: 134px;
+  left: 0;
+  width: 214px;
+  height: 24px;
+}
+.others-parent {
+  top: 168px;
+  width: 83px;
+}
+.event-type-parent {
+  position: absolute;
+  top: 114px;
+  left: 310px;
+  width: 241px;
+  height: 192px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+}
+.solarcalendar-linear-icon {
+  position: absolute;
+  top: 47px;
+  left: 248px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.event-date-parent {
+  position: absolute;
+  top: 228px;
+  left: 0;
+  width: 286px;
+  height: 84px;
+}
+.frame-parent,
+.group-parent {
+  position: absolute;
+  width: 596px;
+}
+.group-parent {
+  top: 66px;
+  left: 0;
+  height: 426px;
+  font-family: var(--font-montserrat);
+}
+.frame-parent {
+  top: 30px;
+  left: 25px;
+  height: 566px;
+}
+.rectangle-parent {
+  position: relative;
+  width: 644px;
+  height: 626px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color2);
+  font-family: var(--font-arkhip);
+}

@@ -1,0 +1,26 @@
+.group-child20 {
+  position: absolute;
+  top: -16px;
+  left: -24px;
+  border-radius: var(--br-xl);
+  width: 406px;
+  height: 548px;
+  object-fit: cover;
+}
+.bride-portraits {
+  position: absolute;
+  top: 510px;
+  left: 105px;
+  line-height: 190.9%;
+}
+.rectangle-parent7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 358px;
+  height: 541px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color2);
+  font-family: var(--font-arkhip);
+}

@@ -1,0 +1,147 @@
+.logo-for-post-21 {
+  position: absolute;
+  top: 60px;
+  left: 64px;
+  width: 200px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.portfolio-child,
+.portfolio-inner,
+.portfolio-item {
+  position: absolute;
+  top: 178px;
+  left: 64px;
+  width: 421px;
+  height: 600px;
+  object-fit: cover;
+}
+.portfolio-inner,
+.portfolio-item {
+  top: 808px;
+}
+.portfolio-inner {
+  top: 1812px;
+}
+.portfolio-child1,
+.portfolio-child2,
+.portfolio-child3,
+.portfolio-child4 {
+  position: absolute;
+  top: 2442px;
+  left: 64px;
+  width: 421px;
+  height: 600px;
+  object-fit: cover;
+}
+.portfolio-child2,
+.portfolio-child3,
+.portfolio-child4 {
+  top: 3446px;
+}
+.portfolio-child3,
+.portfolio-child4 {
+  top: 178px;
+  left: 509px;
+}
+.portfolio-child4 {
+  top: 808px;
+}
+.portfolio-child5,
+.portfolio-child6,
+.portfolio-child7,
+.portfolio-child8 {
+  position: absolute;
+  top: 1812px;
+  left: 509px;
+  width: 421px;
+  height: 600px;
+  object-fit: cover;
+}
+.portfolio-child6,
+.portfolio-child7,
+.portfolio-child8 {
+  top: 2442px;
+}
+.portfolio-child7,
+.portfolio-child8 {
+  top: 3446px;
+}
+.portfolio-child8 {
+  top: 178px;
+  left: 955px;
+}
+.portfolio-child10,
+.portfolio-child11,
+.portfolio-child12,
+.portfolio-child9 {
+  position: absolute;
+  top: 808px;
+  left: 955px;
+  width: 421px;
+  height: 600px;
+  object-fit: cover;
+}
+.portfolio-child10,
+.portfolio-child11,
+.portfolio-child12 {
+  top: 1812px;
+}
+.portfolio-child11,
+.portfolio-child12 {
+  top: 2442px;
+}
+.portfolio-child12 {
+  top: 3446px;
+}
+.ig-001-1,
+.portfolio-child13,
+.portfolio-child14,
+.portfolio-child15,
+.portfolio-child16 {
+  position: absolute;
+  top: 3072px;
+  left: 64px;
+  width: 644px;
+  height: 344px;
+  object-fit: cover;
+}
+.ig-001-1,
+.portfolio-child14,
+.portfolio-child15,
+.portfolio-child16 {
+  top: 1438px;
+}
+.ig-001-1,
+.portfolio-child15,
+.portfolio-child16 {
+  top: 3072px;
+  left: 732px;
+}
+.ig-001-1,
+.portfolio-child16 {
+  top: 1438px;
+}
+.ig-001-1 {
+  top: 3244px;
+  left: 344px;
+  width: 4px;
+  height: 2px;
+}
+.msg-icon1 {
+  position: absolute;
+  bottom: 33px;
+  left: 1316px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.portfolio {
+  position: relative;
+  background-color: var(--color1);
+  width: 100%;
+  height: 4146px;
+  overflow: hidden;
+}

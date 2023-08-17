@@ -1,0 +1,44 @@
+.group-child22 {
+  position: absolute;
+  top: -16px;
+  left: -24px;
+  border-radius: var(--br-xl);
+  width: 406px;
+  height: 548px;
+  object-fit: cover;
+}
+.groom-portraits {
+  position: absolute;
+  top: 510px;
+  left: 100px;
+  line-height: 190.9%;
+}
+.rectangle-parent8 {
+  position: absolute;
+  top: 0;
+  left: 441px;
+  width: 358px;
+  height: 541px;
+}
+.couple-portraits {
+  position: absolute;
+  top: 510px;
+  left: 99px;
+  line-height: 190.9%;
+}
+.group-parent5,
+.rectangle-parent9 {
+  position: absolute;
+  top: 0;
+  left: 882px;
+  width: 358px;
+  height: 541px;
+}
+.group-parent5 {
+  left: 1px;
+  width: 1240px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color2);
+  font-family: var(--font-arkhip);
+}

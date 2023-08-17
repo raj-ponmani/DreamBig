@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arkhip:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:wght@600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-arkhip: Arkhip;
+  --font-montserrat: Montserrat;
+  --font-poppins: Poppins;
+  --font-piazzolla: Piazzolla;
+  --font-playfair-display-sc: "Playfair Display SC";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-5xl: 24px;
+  --font-size-base: 16px;
+  --font-size-5xs: 8px;
+  --font-size-3xs: 10px;
+  --font-size-14xl-7: 33.7px;
+
+  /* Colors */
+  --color2: #000;
+  --color1: #fff;
+  --border-color: #f1b806;
+  --color: #f4f4f2;
+  --color-darkgray-100: rgba(153, 153, 153, 0.4);
+  --color-gainsboro: #d9d9d9;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-8xs: 5px;
+  --br-3xs: 10px;
+}

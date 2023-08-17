@@ -1,0 +1,49 @@
+.dbs-2404-1-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 500px;
+  object-fit: cover;
+}
+.welcome-to13 {
+  font-weight: 600;
+}
+.welcome-to12 {
+  margin: 0;
+}
+.dream-big-studio6 {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-arkhip);
+}
+.welcome-to-dream-big-container6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.unlocking-the-magic6 {
+  position: absolute;
+  top: 172px;
+  left: calc(50% - 370.5px);
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-arkhip);
+}
+.div6,
+.welcome-to-dream-big-studio-parent3 {
+  position: absolute;
+  top: 60px;
+  left: 24px;
+  width: 1105px;
+  height: 208px;
+}
+.div6 {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 500px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color1);
+  font-family: var(--font-montserrat);
+}

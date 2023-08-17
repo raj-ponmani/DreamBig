@@ -1,0 +1,95 @@
+.r4-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 557px;
+  height: 700px;
+  object-fit: cover;
+}
+.the-shots-are {
+  margin: 0;
+  font-weight: 500;
+}
+.mohammed-musaraf {
+  margin: 0;
+  font-family: var(--font-arkhip);
+}
+.the-shots-are-container {
+  position: absolute;
+  top: 241px;
+  left: 581px;
+  line-height: 133.9%;
+  display: inline-block;
+  width: 731px;
+}
+.r4 {
+  position: absolute;
+  top: 0;
+  left: 4365px;
+  width: 1312px;
+  height: 700px;
+}
+.such-a-fantastic-container {
+  position: absolute;
+  top: 268px;
+  left: 581px;
+  line-height: 133.9%;
+  display: inline-block;
+  width: 731px;
+}
+.r3 {
+  position: absolute;
+  top: 0;
+  left: 2910px;
+  width: 1312px;
+  height: 700px;
+}
+.so-genuine-and-container {
+  position: absolute;
+  top: 269px;
+  left: 581px;
+  line-height: 133.9%;
+  display: inline-block;
+  width: 731px;
+}
+.r1-child,
+.r2 {
+  position: absolute;
+  top: 0;
+  left: 1455px;
+  width: 1312px;
+  height: 700px;
+}
+.r1-child {
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 581px;
+  object-fit: cover;
+}
+.genuinely-nice-and-container {
+  position: absolute;
+  top: 188px;
+  left: 581px;
+  line-height: 133.9%;
+  display: inline-block;
+  width: 731px;
+}
+.property-1s1,
+.r1 {
+  width: 1312px;
+  height: 700px;
+}
+.r1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.property-1s1 {
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color2);
+  font-family: var(--font-montserrat);
+}
