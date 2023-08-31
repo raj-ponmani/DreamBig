@@ -21,7 +21,6 @@ const BridePortraitsContainer1 = ({
 
   return (
     <div className="rectangle-parent7" style={groupDivStyle}>
-      <img className="group-child20" alt="" src={rectangle4} />
       <img className="group-child20" alt="" src={rectangle6} />
       <div className="bride-portraits" style={bridePortraitsStyle}>
         {bridePortraits}

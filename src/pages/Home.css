@@ -1,18 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo-for-post-24 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
+  /* width: 200px; */
   height: 60px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .about-us,
 .contact-us1,
 .portflio,
 .services {
-  position: absolute;
-  top: 0;
-  left: 0;
   font-weight: 500;
   cursor: pointer;
 }
@@ -29,67 +30,67 @@
   left: 314px;
 }
 .about-us-parent {
-  position: absolute;
-  top: 19px;
-  left: 908px;
+  /* left: 908px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 404px;
   height: 20px;
 }
 .logo-for-post-2-parent {
-  position: absolute;
+  padding: 20px 20px;
   top: 60px;
-  left: 64px;
-  width: 1312px;
+
   height: 60px;
   font-size: var(--font-size-base);
   font-family: var(--font-montserrat);
 }
 .about-us1,
 .welcome-to-dream {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0;
+  left: 0; */
+  margin-bottom: 38px;
 }
 .welcome-to-dream {
-  top: 69px;
+  /* top: 69px; */
   font-size: var(--font-size-11xl);
   font-family: var(--font-playfair-display-sc);
 }
 .our-team-of {
-  margin: 0;
+  margin: 10px 0;
 }
 .welcome-to-dream-container {
-  position: absolute;
+  /* position: absolute;
   top: 142px;
-  left: 0;
+  left: 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-size: var(--font-size-xl);
   line-height: 190.9%;
   font-family: var(--font-montserrat);
-  display: inline-block;
-  width: 1312px;
+  /* display: inline-block; */
+  /* width: 1312px; */
 }
 .about-us-group {
-  position: absolute;
-  top: 0;
-  left: 1px;
+  align-items: center;
   width: 1312px;
   height: 598px;
 }
 .our-mission,
 .our-vision {
-  position: absolute;
-  top: 0;
-  left: 242px;
+  /* left: 242px; */
+  text-align: center;
   font-weight: 600;
+  margin-bottom: 38px;
 }
 .our-vision {
   left: 922px;
 }
 .at-dream-big1,
 .our-mission-is {
-  position: absolute;
-  top: 73px;
-  left: 0;
+  text-align: center;
   font-size: var(--font-size-base);
   line-height: 190.9%;
   font-family: var(--font-montserrat);
@@ -100,108 +101,90 @@
   left: 669px;
   width: 644px;
 }
-.about-us-g,
+
 .our-mission-parent {
-  position: absolute;
+  /* position: absolute;
   top: 658px;
   left: 0;
-  width: 1313px;
-  height: 259px;
+  width: 1313px; */
+  /* height: 259px; */
+  margin: 40px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
   font-size: var(--font-size-11xl);
   font-family: var(--font-piazzolla);
 }
 .about-us-g {
-  top: 778px;
+  /* top: 778px;
   left: 63px;
-  height: 917px;
+  height: 917px; */
+  margin: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-size: var(--font-size-5xl);
   font-family: var(--font-arkhip);
 }
 .our-service {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 74px);
+  /* left: calc(50% - 74px); */
   font-weight: 600;
+  margin-bottom: 38px;
 }
 .at-dream-big2 {
-  position: absolute;
-  top: 73px;
-  left: 0;
   font-size: var(--font-size-xl);
   line-height: 133.9%;
   font-family: var(--font-montserrat);
   text-align: center;
   display: inline-block;
-  width: 1312px;
 }
 .our-service-parent {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 656px);
-  width: 1312px;
-  height: 154px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 80px;
 }
 .group-child16 {
-  position: absolute;
-  top: -16px;
-  left: -24px;
   border-radius: var(--br-xl);
   width: 406px;
   height: 548px;
   object-fit: cover;
 }
 .wedding-photography1 {
-  position: absolute;
-  top: 510px;
-  left: 77px;
   line-height: 190.9%;
+  text-align: center;
 }
 .rectangle-parent4 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 358px;
   height: 541px;
 }
 .engagement {
-  position: absolute;
-  top: 510px;
-  left: 124px;
   line-height: 190.9%;
+  text-align: center;
 }
 .rectangle-parent5 {
-  position: absolute;
-  top: 0;
-  left: 441px;
-  width: 358px;
   height: 541px;
 }
 .pre-wedding-photography {
-  position: absolute;
-  top: 510px;
-  left: 57px;
+  text-align: center;
   line-height: 190.9%;
 }
 .group-parent2,
 .group-parent3,
 .rectangle-parent6 {
-  position: absolute;
-  top: 0;
-  left: 882px;
-  width: 358px;
-  height: 541px;
 }
-.group-parent2,
+
 .group-parent3 {
-  top: 601px;
-  left: 1px;
-  width: 1240px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
 }
+
 .group-parent2 {
-  top: 214px;
-  left: 35px;
-  width: 1241px;
-  height: 1743px;
+  width: 100%;
   font-size: var(--font-size-base);
   font-family: var(--font-arkhip);
 }
@@ -213,16 +196,15 @@
   height: 1957px;
 }
 .goverment-project {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 120px);
+  text-align: center;
   font-weight: 600;
+  margin-bottom: 40px;
 }
 .madurai-natham,
 .nhai-project {
-  position: absolute;
+  /* position: absolute;
   top: 58px;
-  left: 0;
+  left: 0; */
 }
 .nhai-project {
   top: 0;
@@ -231,11 +213,12 @@
 }
 .group-child19,
 .madurai-natham-flyover-parent {
-  position: absolute;
-  top: 234px;
-  left: 0;
-  width: 447px;
-  height: 94px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
 }
 .group-child19 {
   top: -16px;
@@ -247,35 +230,34 @@
   cursor: pointer;
 }
 .group-parent4 {
-  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* position: absolute;
   top: 103px;
   left: 0;
   width: 1090px;
-  height: 561px;
+  height: 561px; */
+  flex-wrap: wrap;
   font-family: var(--font-arkhip);
 }
 .goverment-project-parent {
-  position: absolute;
+  /* position: absolute;
   top: 3852px;
   left: 63px;
   width: 1090px;
-  height: 664px;
+  height: 664px; */
 }
 .msg-icon2 {
-  position: absolute;
-  bottom: 60px;
-  left: 1316px;
   width: 60px;
   height: 60px;
   overflow: hidden;
   cursor: pointer;
 }
 .home {
-  position: relative;
   background-color: var(--color1);
   width: 100%;
-  height: 6433px;
-  overflow: hidden;
+  height: auto;
   text-align: left;
   font-size: var(--font-size-11xl);
   color: var(--color2);
