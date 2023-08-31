@@ -90,12 +90,12 @@ const Home = () => {
           <b className="welcome-to-dream">Welcome to Dream Big Studio!</b>
           <div className="welcome-to-dream-container">
             <p className="our-team-of">
-              Welcome to Dream Big Studio, your go-to budget-friendly
+              Welcome to DreamBig Studio, your go-to budget-friendly
               photography studio in Madurai! With over five years of experience,
               we are the experts in candid wedding photography and much more.
               From pre-wedding to post-wedding, outdoor adventures to maternity
               shoots, and everything in between, we capture it all with
-              exceptional skill and creativity.
+              exceptional skill and creativity..
             </p>
             <p className="our-team-of">
               Our team of passionate professionals, widely appreciated across
