@@ -4,7 +4,7 @@ const BridePortraitsContainer = () => {
   return (
     <div className="group-parent5">
       <BridePortraitsContainer1
-        rectangle4="/rectangle-4@2x.png"
+        rectangle4="/rectangle-6@2x.png"
         rectangle6="/rectangle-6@2x.png"
         bridePortraits="Bride Portraits"
       />

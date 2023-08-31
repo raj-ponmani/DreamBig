@@ -14,7 +14,7 @@ const Property1Slider1 = ({
   }, [property1Slider1Position, property1Slider1Top, property1Slider1Left]);
 
   return (
-    <div className="property-1slider-1" style={property1Slider1Style}>
+    <div className="property-1slider-1">
       <div className="div">
         <img className="dbs-2404-1-icon" alt="" src="/dbs-2404-1@2x.png" />
         <div className="welcome-to-dream-big-studio-parent">

@@ -15,8 +15,8 @@ const PostWeddingPhotographyCard = () => {
         rectangle4="/rectangle-6@2x.png"
         rectangle6="/rectangle-53@2x.png"
         bridePortraits="Baby Shoot"
-        propLeft="882px"
-        propLeft1="127px"
+        // propLeft="882px"
+        // propLeft1="127px"
       />
     </div>
   );
