@@ -10,6 +10,8 @@ import SectionCard from "../components/SectionCard";
 import AddressSection from "../components/AddressSection";
 import Property1S1 from "../components/Property1S1";
 import "./Home.css";
+import Footer from "../components/Footer";
+import ProfileCard from "../components/ProfileCard";
 const Home = () => {
   const [isFrameOpen, setFrameOpen] = useState(false);
   const [isFrame1Open, setFrame1Open] = useState(false);
@@ -204,17 +206,17 @@ const Home = () => {
             </div>
           </div>
         </div>
+        {/* <AddressSection /> */}
 
-        <div>
+        {/* <div>
           {" "}
           <SectionCard />
-        </div>
+        </div> */}
       </div>
 
-      <AddressSection />
-      {/* <Property1S1 />
-      <img className="msg-icon2" alt="" src="/msg.svg" onClick={openFrame1} /> */}
-      {/* 
+      <ProfileCard />
+      {/* <img className="msg-icon2" alt="" src="/msg.svg" onClick={openFrame1} /> */}
+
       {isFrameOpen && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"
@@ -223,8 +225,8 @@ const Home = () => {
         >
           <FrameComponent onClose={closeFrame} />
         </PortalPopup>
-      )} */}
-      {/* {isFrame1Open && (
+      )}
+      {isFrame1Open && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"
           placement="Centered"
@@ -232,7 +234,8 @@ const Home = () => {
         >
           <FrameComponent1 onClose={closeFrame1} />
         </PortalPopup>
-      )} */}
+      )}
+      <Footer />
     </>
   );
 };

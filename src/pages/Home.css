@@ -247,6 +247,7 @@
   left: 63px;
   width: 1090px;
   height: 664px; */
+  flex-wrap: wrap;
 }
 .msg-icon2 {
   width: 60px;

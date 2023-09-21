@@ -1,0 +1,21 @@
+.image-with-content {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 80px;
+}
+.image-framecontainer {
+  font-size: 18px;
+  font-family: var(--font-montserrat);
+  font-weight: 500;
+  align-self: center;
+  width: 62%;
+  color: #000;
+  margin-left: 30px;
+}
+.names {
+  font-variant: small-caps;
+  font-feature-settings: "smcp";
+  font-family: var(--font-arkhip);
+  font-size: 18px;
+  font-weight: 500px;
+}
