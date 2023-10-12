@@ -81,11 +81,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <Property1Slider1
-          property1Slider1Position="absolute"
-          property1Slider1Top="178px"
-          property1Slider1Left="0px"
-        />
+        <Property1Slider1 />
         <div className="about-us-g">
           {/* <div className="about-us-group" data-scroll-to="groupContainer1"> */}
           <div className="about-us1">About Us</div>

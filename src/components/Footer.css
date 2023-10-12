@@ -12,28 +12,24 @@
 .datailadd {
   /* width: 720px; */
   height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 470px;
 }
 .contact {
-  /* width: 720px; */
+  width: 420px;
   height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 .opening {
-  /* width: 720px; */
+  width: 430px;
   height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 .detailshead {
   font-size: var(--font-size-11xl);
   font-weight: 600;
   font-family: var(--font-piazzolla);
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .contentcontact {
   /* font-size: 22px; */
@@ -42,7 +38,7 @@
   line-height: 30px;
 }
 .address-main {
-  width: 90%;
+  /* width: 90%; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -52,17 +48,66 @@
   line-height: 30px;
 }
 .street-addr {
-  width: 470px;
+  font-size: 18px;
+  font-family: var(--font-montserrat);
+  line-height: 30px;
+  padding: 10px 0;
+}
+.contact-addr {
+  font-size: 18px;
+  font-family: var(--font-montserrat);
+  line-height: 30px;
+  padding: 5px 0;
 }
 .date-time1 {
   display: flex;
-  width: 400px;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 18px;
+  font-family: var(--font-montserrat);
+  line-height: 30px;
+  padding: 10px 0;
 }
 .date-time2 {
   display: flex;
-  width: 200px;
+  padding: 10px 0;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 18px;
+  font-family: var(--font-montserrat);
+  line-height: 30px;
+  width: 305px;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon-image {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+}
+
+.icon-link {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Add styles for hover effects if desired */
+.icon-link:hover {
+  color: #0078d4; /* Change the color on hover */
+}
+.iconstyles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0;
+  width: 400px;
 }

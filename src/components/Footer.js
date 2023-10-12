@@ -24,11 +24,37 @@ const Footer = () => {
             <div>
               <b>Google Map Code</b> : 9.906462, 78.099587
             </div>
+            <div className="iconstyles">
+              <a
+                href="https://instagram.com/dreambigstudio.in?igshid=MzRlODBiNWFlZA=="
+                target="_blank"
+              >
+                <img src="/instagramicon.png" height={40} width={40} />
+              </a>
+              <a
+                href="https://www.facebook.com/dreambigstudio.fb"
+                target="_blank"
+              >
+                <img src="/facebookicon.png" height={40} width={40} />
+              </a>
+              <a
+                href="https://www.youtube.com/@dreambigstudio.youtube"
+                target="_blank"
+              >
+                <img src="/youtubeicon.png" height={40} width={40} />
+              </a>
+              <a
+                href={`https://api.whatsapp.com/send/?phone=916379550678&text&type=phone_number&app_absent=0`}
+                target="_blank"
+              >
+                <img src="/whatsappicon.png" height={40} width={40} />
+              </a>
+            </div>
           </div>
           <div className="contact">
             <div className="detailshead">Contact</div>
-            <div>+ 91 98942 11704</div>
-            <div>+ 91 95859 72207</div>
+            <div className="contact-addr">+ 91 98942 11704</div>
+            <div className="contact-addr">+ 91 95859 72207</div>
             <Link>dreambigstudio.in@gmail.com</Link>
           </div>
           <div className="opening">
