@@ -26,28 +26,24 @@ const Footer = () => {
             </div>
             <div className="iconstyles">
               <a
-                className="ig"
                 href="https://instagram.com/dreambigstudio.in?igshid=MzRlODBiNWFlZA=="
                 target="_blank"
               >
                 <img src="/instagramicon.png" height={40} width={40} />
               </a>
               <a
-                className="fb"
                 href="https://www.facebook.com/dreambigstudio.fb"
                 target="_blank"
               >
                 <img src="/facebookicon.png" height={40} width={40} />
               </a>
               <a
-                className="yt"
                 href="https://www.youtube.com/@dreambigstudio.youtube"
                 target="_blank"
               >
                 <img src="/youtubeicon.png" height={40} width={40} />
               </a>
               <a
-                className="wa"
                 href={`https://api.whatsapp.com/send/?phone=916379550678&text&type=phone_number&app_absent=0`}
                 target="_blank"
               >
