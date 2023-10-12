@@ -28,7 +28,6 @@ function ProfileCard() {
       description: [
         "Such a fantastic experience with a fantastic crew.... I would definitely recommend it to my friends and family... ",
         "Thank you, Deva and Team....",
-        "Line 3 of Content for Image 2",
         <span
           style={{ fontVariant: "small-caps", fontSize: 28, fontWeight: 500 }}
         >
@@ -41,7 +40,6 @@ function ProfileCard() {
       description: [
         "So genuine and friendly crew, super best photo and album quality.",
         "Best service at best price. If someone asks me about their events, I would definitely recommend them.",
-        "Line 3 of Content for Image 3",
         <span
           style={{ fontVariant: "small-caps", fontSize: 28, fontWeight: 500 }}
         >
