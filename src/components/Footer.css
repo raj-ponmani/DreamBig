@@ -111,3 +111,16 @@
   padding: 10px 0;
   width: 400px;
 }
+.contactInfo {
+  font-size: 30px;
+  font-weight: 500;
+  font-variant: small-caps;
+  font-feature-settings: "smcp";
+}
+.description {
+  font-size: var(--font-size-xl);
+  font-family: var(--font-montserrat);
+  line-height: 30px;
+  margin: 40px 80px;
+  padding: 20px 0;
+}
