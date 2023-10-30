@@ -7,18 +7,28 @@
 }
 .welcome-to {
   margin: 0;
+  font-size: 20px;
 }
 .dream-big-studio {
   margin: 0;
-  font-size: var(--font-size-5xl);
-  font-family: var(--font-arkhip);
+  font-size: 30px;
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
 }
 .unlocking-the-magic {
-  font-size: var(--font-size-11xl);
+  font-size: 36px;
   font-family: var(--font-arkhip);
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
+  font-weight: 400;
 }
 .welcome-to-dream-big-studio-parent {
   height: 208px;
+  width: 100%;
+}
+.content {
+  width: 100%;
+  text-align: center;
 }
 .div,
 .div1,
@@ -28,7 +38,17 @@
 .div5 {
   height: 500px;
 }
-
+.welcome-to-dream-big-container {
+  position: absolute;
+  top: -220px;
+  text-align: left;
+  padding: 0 30px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .property-1slider-1 {
   position: relative;
   width: 100%;

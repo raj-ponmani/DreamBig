@@ -39,11 +39,11 @@ const Property1Slider1 = ({
             <div className="welcome-to-dream-big-studio-parent">
               <div className="welcome-to-dream-big-container">
                 <p className="welcome-to">
-                  <span>
-                    <span className="welcome-to1">Welcome to</span>
-                  </span>
+                  <span className="welcome-to1">Welcome to</span>
                 </p>
-                <p className="dream-big-studio">DREAM BIG STUDIO</p>
+                <p className="dream-big-studio">
+                  <span>DREAM BIG STUDIO</span>
+                </p>
               </div>
               <div className="unlocking-the-magic">
                 "Unlocking the Magic of Memories - Dream Big Studio"
