@@ -21,40 +21,61 @@ const GovermentProjects = () => {
 
   return (
     <>
-      <div className="goverment-projects">
+      <div className="portfoliocontainer">
+        <div>
+          {" "}
+          <img
+            className="imageHeader"
+            alt=""
+            src="/logo-for-post-2@2x.png"
+            onClick={onLogoForPost2Click}
+          />
+        </div>
+        <div class="center-container">
+          <img
+            alt=""
+            src="/rectangle-38@2x.png"
+            style={{ objectFit: "cover", height: "366px", width: "auto" }}
+          />
+
+          <img
+            alt=""
+            src="/rectangle-39@2x.png"
+            style={{ objectFit: "cover", height: "366px", width: "auto" }}
+          />
+
+          <img
+            alt=""
+            src="/rectangle-40@2x.png"
+            style={{ objectFit: "cover", height: "366px", width: "auto" }}
+          />
+
+          <img
+            alt=""
+            src="/rectangle-41@2x.png"
+            style={{ objectFit: "cover", height: "366px", width: "auto" }}
+          />
+
+          <img
+            alt=""
+            src="/rectangle-42@2x.png"
+            style={{ objectFit: "cover", height: "366px", width: "auto" }}
+          />
+
+          <img
+            alt=""
+            src="/rectangle-43@2x.png"
+            style={{ objectFit: "cover", height: "366px", width: "auto" }}
+          />
+        </div>
         <img
-          className="logo-for-post-2"
           alt=""
-          src="/logo-for-post-2@2x.png"
-          onClick={onLogoForPost2Click}
+          src="/msg.svg"
+          onClick={openFrame}
+          height={70}
+          width={70}
+          className="fixed-image"
         />
-        <img
-          className="goverment-projects-child"
-          alt=""
-          src="/rectangle-38@2x.png"
-        />
-        <img
-          className="goverment-projects-item"
-          alt=""
-          src="/rectangle-40@2x.png"
-        />
-        <img
-          className="goverment-projects-inner"
-          alt=""
-          src="/rectangle-42@2x.png"
-        />
-        <img className="rectangle-icon" alt="" src="/rectangle-39@2x.png" />
-        <img
-          className="goverment-projects-child1"
-          alt=""
-          src="/rectangle-41@2x.png"
-        />
-        <img
-          className="goverment-projects-child2"
-          alt=""
-          src="/rectangle-43@2x.png"
-        />
-        <img className="msg-icon" alt="" src="/msg.svg" onClick={openFrame} />
       </div>
       {isFrameOpen && (
         <PortalPopup

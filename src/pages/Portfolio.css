@@ -1,7 +1,7 @@
 .portfolioimagecontainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 70px;
 }
 
@@ -38,6 +38,7 @@
   flex: 1;
   padding: 20px 150px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 /* Media Queries for Responsiveness */
@@ -60,8 +61,8 @@
 }
 
 .imageHeader {
-  height: 80px;
-  width: 280px;
+  height: 60px;
+  width: 200px;
   object-fit: cover;
   margin: 20px 60px;
 }
@@ -71,4 +72,7 @@
   right: 8%;
   z-index: 1000;
   cursor: pointer;
+}
+.center-container img {
+  padding: 16px;
 }
